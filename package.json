@@ -1,0 +1,18 @@
+{
+  "name": "play-version",
+  "version": "1.0.0",
+  "description": "read and write justPlay version by this server",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "version"
+  ],
+  "author": "Matthew5",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1"
+  }
+}
