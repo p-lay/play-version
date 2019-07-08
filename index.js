@@ -42,6 +42,7 @@ app.post("/mp-version/update", (req, res) => {
   res.json(response)
 })
 
-app.listen(3400, () => {
-  console.log("listening 3400...")
+var port = 3100
+app.listen(port, () => {
+  console.log("listening on " + port)
 })
